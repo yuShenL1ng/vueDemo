@@ -1,5 +1,5 @@
 <template>
-	<div id="login">
+	<div>
 		<p>用户登陆</p>
 		<form model="dataForm">
 			用户名<input v-model="dataForm.userName" placeholder="帐号" />
@@ -12,7 +12,6 @@
 
 <script>
 	export default {
-		el: '#login',
 		data() {
 			return {
 				dataForm: {
