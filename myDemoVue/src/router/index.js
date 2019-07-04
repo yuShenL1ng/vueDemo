@@ -8,6 +8,7 @@ import demoIndex from '@/page/demoIndex'
 import heTongList from '@/page/heTongList'
 import xiaoShou from '@/page/xiaoShou'
 import websocketDemo from '@/page/websocketDemo'
+import ehcarDemo from '@/page/ehcarDemo'
 /* import text from '@/components/text' */
 
 Vue.use(Router)
@@ -49,6 +50,10 @@ export default new Router({
 				path: 'websocketDemo',
 				name: 'websocketDemo',
 				component: websocketDemo
+			},{
+				path: 'ehcarDemo',
+				name: 'ehcarDemo',
+				component: ehcarDemo
 			}],
 		}
 	]
