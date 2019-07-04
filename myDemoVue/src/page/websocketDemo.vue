@@ -13,7 +13,7 @@
 		<input type="text" v-model="text">
 		<el-button @click="send()">发送消息</el-button>
 		<br>
-		<el-button @click="closeWebSocket()">退出房间11111</el-button>
+		<el-button @click="closeWebSocket()">退出房间</el-button>
 		<el-button @click="emptyMessage()">清空消息</el-button>
 		<br>
 		<!-- <socketOne ref="websocketOne"></socketOne> -->
