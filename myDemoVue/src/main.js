@@ -8,7 +8,7 @@ import router from './router'
 import websocket from 'vue-native-websocket'
 import httpRequest from '@/utils/httpRequest'
 import ECharts from 'vue-echarts/components/ECharts'
-import 'echarts/lib/chart/line'
+import 'echarts'
 Vue.prototype.$http = httpRequest // ajax请求方法
 Vue.config.productionTip = false
 Vue.use(ElementUI);

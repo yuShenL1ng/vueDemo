@@ -9,7 +9,6 @@ import heTongList from '@/page/heTongList'
 import xiaoShou from '@/page/xiaoShou'
 import websocketDemo from '@/page/websocketDemo'
 import ehcarDemo from '@/page/ehcarDemo'
-/* import text from '@/components/text' */
 
 Vue.use(Router)
 
@@ -27,12 +26,7 @@ export default new Router({
 		{
 			path: '/userCenter',
 			name: 'userCenter',
-			component: UserCenter,
-			children: [{
-				path: 'text',
-				name: 'text',
-				component: text
-			}],
+			component: UserCenter
 		},
 		{
 			path: '/demoIndex',
