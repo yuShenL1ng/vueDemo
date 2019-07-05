@@ -13,13 +13,13 @@ import ehcarDemo from '@/page/ehcarDemo'
 Vue.use(Router)
 
 export default new Router({
-	routes: [{
+	routes: [/* {
 			path: '/',
 			name: 'index',
 			component: Index
-		},
+		}, */
 		{
-			path: '/userInfo',
+			path: '/',
 			name: 'userInfo',
 			component: UserInfo
 		},
